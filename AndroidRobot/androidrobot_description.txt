@@ -1,0 +1,1 @@
+A 3-D model of Google's Android(TM) robot, with posable head and limbs. In version 5.0/5.0A, the head is available as a standalone object, and the official color is updated to its 2019 value.
