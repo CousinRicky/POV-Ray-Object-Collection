@@ -1,0 +1,5 @@
+Macros for creating metallic textures that are more realistic-looking than the metallic textures in the standard include files and, being argument-driven, are more flexible. The idea is to have a small number of simple tools for creating a large variety of customized textures.
+
+Ambient and diffuse levels are automatically adjusted, and brilliance can be coordinated with specular highlights. Blurred reflection, galvanized metal, and a brushed normal are included, and common metal colors are suggested.
+
+Version 1.3/1.3A adds galvanized macros with a turbulence argument and fixes a photons bug.

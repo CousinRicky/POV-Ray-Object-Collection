@@ -1,0 +1,16 @@
+RC3Metal
+RC3M
+metal
+finish
+ambient
+diffuse
+color
+colour
+texture
+galvanised
+galvanized
+blurred reflection
+brushed
+normal
+micronormal
+macronormal
