@@ -114,6 +114,7 @@ Perfectly sharp edges are rare in real life. Blunting or rounding-off the edges 
       <li><a href="#RE_fn_Hole">RE_fn_Hole</a>
       <li><a href="#RE_fn_Parabolic_torus">RE_fn_Parabolic_torus</a>
       <li><a href="#RE_fn_Wheel">RE_fn_Wheel</a>
+      <li><a href="#max_gradient">max_gradient warnings</a>
      </ul>
     <li><a href="#Blob_Assist_Functions"><b>Blob Assist Functions</b></a>
      <ul>
@@ -1081,7 +1082,9 @@ A box with one corner completely rounded. The 3 edges that meet at this corner a
 
 <h3 id="RE_Evaluate">RE_Evaluate (Max_gradient, Min_factor, Attenuation)</h3>
 
-<p>Implements the <a href="https://wiki.povray.org/content/Reference:Isosurface#Index_Entry_evaluate_isosurface">isosurface <code>evaluate</code> feature</a>, automatically calculating its arguments in the manner suggested in the POV-Ray Reference Manual. This is a general isosurface macro, useful not only for blobs and rounded edges, but for all sorts of isosurfaces.
+<p>Implements the <a href="http://wiki.povray.org/content/Reference:Isosurface#Index_Entry_evaluate_isosurface">isosurface <code>evaluate</code> feature</a>, automatically calculating its arguments in the manner suggested in the POV-Ray Reference Manual. This is a general isosurface macro, useful not only for blobs and rounded edges, but for all sorts of isosurfaces.
+
+<p>N.B.: <code>evaluate</code> does not perform well in POV-Ray 3.7, due to multi-threading issues.
 
 <h4>Arguments</h4>
 <table>
@@ -1273,6 +1276,21 @@ Its utility is with isosurface blobs. In the illustration, the colored patch is 
 
 <p><a href="#toc">Table of contents</a><hr>
 
+<h3 id="max_gradient">max_gradient Warnings</h2>
+
+<p>POV-Ray 3.7 fails to issue <code>max_gradient</code> warnings on declared isosurfaces. The following code will not generate any warnings, regardless of the specified <code>max_gradient</code> and maximum gradient found:
+<pre>#declare MyObject = isosurface { <var>...</var> }
+object { MyObject }</pre>
+
+<p>To establish and verify a <code>max_gradient</code> in POV-Ray 3.7, you must use the isosurface directly:
+<pre>isosurface { <var>...</var> }</pre>
+
+<p>After the maximum gradient is established during testing, you may rewrite your scene with a declared isosurface.
+
+<p>This bug is fixed in POV-Ray 3.8.
+
+<p><a href="#toc">Table of contents</a><hr>
+
 <h2 id="Blob_Assist_Functions">Blob Assist Functions</h2>
 
 <p>Note: In order to avoid a POV-Ray namespace scope feature, all the function arguments in <code>roundedge.inc</code> begin with “<code>RE_P</code>” followed by a digit and an underscore. In this user manual, this prefix is omitted for clarity.
@@ -1394,6 +1412,24 @@ Returns the field radius that yields a blob component of the desired surface rad
   <td>float</td>
   <td>The RoundEdge version, in case the scene file needs that information.</td>
   <td>2.0</td>
+ </tr>
+</table>
+
+<h3>Synonyms</h3>
+
+<p>These names are retained from previous versions of RoundEdge.
+
+<table>
+ <tr>
+  <th>Old Identifier Name</th> <th>Type</th> <th>New Name</th>
+ </tr><tr>
+  <td><code>RE_fn_Blob_distance</code></td>
+  <td>function</td>
+  <td><code>RE_fn_Blob_surface_radius</code></td>
+ </tr><tr>
+  <td><code>RE_fn_Blob_radius</code></td>
+  <td>function</td>
+  <td><code>RE_fn_Blob_field_radius</code></td>
  </tr>
 </table>
 
