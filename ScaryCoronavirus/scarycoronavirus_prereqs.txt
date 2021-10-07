@@ -1,1 +1,0 @@
-RoundEdge, also available from the POV-Ray Object Collection.
