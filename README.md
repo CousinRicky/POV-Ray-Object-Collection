@@ -1,7 +1,7 @@
 # POV-Ray-Object-Collection
 My Object Collection contributions
 
-These are modules in the [POV-Ray Object Collection](http://lib.povray.org/) that I have contributed or edited. Each module now has its own repository, and the files that were in this repository have been deleted.
+These are modules in the [POV-Ray Object Collection](http://lib.povray.org/) (link temporarily unavailable) that I have contributed or edited. Each module now has its own repository, and the files that were in this repository have been deleted.
 
 - [AndroidRobot](https://github.com/CousinRicky/POV-AndroidRobot) - A 3-D model of Google’s Android™ robot
 - [BeamTest](https://github.com/CousinRicky/POV-BeamTest) - A test bed for examining the behavior of light
