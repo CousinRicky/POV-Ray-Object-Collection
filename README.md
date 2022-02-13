@@ -17,3 +17,9 @@ These are modules in the [POV-Ray Object Collection](http://lib.povray.org/) (li
 - [Spectrum](https://github.com/CousinRicky/POV-Spectrum) - Calibrated spectrum color maps and pigments
 - [SphereSweep](https://github.com/CousinRicky/POV-SphereSweep) - Well-behaved alternatives to the sphere_sweep primitive
 - [TiltedTorus](https://github.com/CousinRicky/POV-TiltedTorus) - A torus that is scaled in the polar (y) direction, then rotated about its circular axis
+
+## Proposed Modules
+
+These are modules that have been completed, but not yet submitted to the Object Collection.
+
+- [SpiralImage](https://github.com/CousinRicky/POV-SpiralImage) - An Archimedean spiral impression of a pigment
