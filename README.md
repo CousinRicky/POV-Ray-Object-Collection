@@ -23,3 +23,4 @@ These are modules in the [POV-Ray Object Collection](http://lib.povray.org/) (li
 These are modules that have been completed, but not yet submitted to the Object Collection.
 
 - [SpiralImage](https://github.com/CousinRicky/POV-SpiralImage) - An Archimedean spiral impression of a pigment
+- [DeskLamp](https://github.com/CousinRicky/POV-DeskLamp) - A flexible gooseneck desk lamp with a built-in light source
