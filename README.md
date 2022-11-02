@@ -24,3 +24,4 @@ These are modules that have been completed, but not yet submitted to the Object 
 
 - [DeskLamp](https://github.com/CousinRicky/POV-DeskLamp) - A flexible gooseneck desk lamp with a built-in light source
 - [SpiralImage](https://github.com/CousinRicky/POV-SpiralImage) - An Archimedean spiral impression of a pigment
+- [ShapeOfTheDay](https://github.com/CousinRicky/POV-ShapeOfTheDay) - Prefabricated virtual environments in which one can showcase or examine experimental models and prototypes
