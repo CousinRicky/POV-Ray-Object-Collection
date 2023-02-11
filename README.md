@@ -28,4 +28,4 @@ These are modules that have been completed, but not yet submitted to the Object 
 
 ## Object Collection Mirror
 
-The official POV-Ray Object Collection website is temporarily unavailable, but [LeForgeron has mirrored the Collection](https://github.com/LeForgeron/PovContributions) as of April 5, 2019.
+The official POV-Ray Object Collection website is temporarily offline, but [LeForgeron has mirrored the Collection](https://github.com/LeForgeron/PovContributions) as of April 5, 2019.
