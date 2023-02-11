@@ -25,3 +25,7 @@ These are modules that have been completed, but not yet submitted to the Object 
 - [DeskLamp](https://github.com/CousinRicky/POV-DeskLamp) - A flexible gooseneck desk lamp with a built-in light source
 - [ShapeOfTheDay](https://github.com/CousinRicky/POV-ShapeOfTheDay) - Prefabricated virtual environments in which one can showcase or examine experimental models and prototypes
 - [SpiralImage](https://github.com/CousinRicky/POV-SpiralImage) - An Archimedean spiral impression of a pigment
+
+## Object Collection Mirror
+
+The official POV-Ray Object Collection website is temporarily unavailable, but [LeForgeron has mirrored the Collection](https://github.com/LeForgeron/PovContributions) as of April 5, 2019.
