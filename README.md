@@ -19,8 +19,9 @@ These are modules in the [POV-Ray Object Collection](http://lib.povray.org/) (li
 
 ## Modules I Have Edited
 
-- [AndroidRobot](https://github.com/CousinRicky/POV-AndroidRobot) - A 3-D model of Google’s Android™ robot
-- [lrchairs](https://github.com/CousinRicky/POV-lrchairs) - Leroy’s cheap chairs macro
+- [AndroidRobot](https://github.com/CousinRicky/POV-AndroidRobot) - A 3-D model of Google’s Android™ robot, by Karl Ostmo
+- [lrchairs](https://github.com/CousinRicky/POV-lrchairs) -  Cheap chairs macro, by Leroy Whetstone
+- [TheEarth](https://github.com/CousinRicky/POV-TheEarth) - Image maps of the Earth, by Chris Bartlett and Dave Pape
 
 ## Proposed Modules
 
