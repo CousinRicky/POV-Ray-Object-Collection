@@ -20,6 +20,7 @@ These are modules in the [POV-Ray Object Collection](http://lib.povray.org/) (li
 ## Modules I Have Edited
 
 - [AndroidRobot](https://github.com/CousinRicky/POV-AndroidRobot) - A 3-D model of Google’s Android™ robot, by Karl Ostmo
+- [bubble](https://github.com/CousinRicky/POV-bubble) - Carbonated fluid bubble generator, by Charles Robertson
 - [lrchairs](https://github.com/CousinRicky/POV-lrchairs) -  Cheap chairs macro, by Leroy Whetstone
 - [TheEarth](https://github.com/CousinRicky/POV-TheEarth) - Image maps of the Earth, by Chris Bartlett and Dave Pape
 
